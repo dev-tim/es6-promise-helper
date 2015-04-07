@@ -6,6 +6,16 @@
   "dependencies": {
     "es6-promise": "^2.0.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dev-tim/es6-promise-helper.git"
+  },
+  "keywords": [
+    "es6",
+    "promise",
+    "hepler",
+    "tests"
+  ],
   "scripts": {
     "test": ""
   },

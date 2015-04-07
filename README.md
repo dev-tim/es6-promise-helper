@@ -11,6 +11,28 @@ Just execute:
  npm install --save es6-promise-helper
 ```
 
+##Examples 
+
+ES6 promise helper usually used in tests or anywhere where you 
+need to have shorthand to get resolved or rejected promises.
+
+For example:
+
+```
+
+var promiseHelper = require('es6-promise-helper');
+
+// returns resolved promise with a value
+promiseHelper.when(yourValue);
+ 
+// returns rejected promise with an error
+promiseHelper.fail(new Error('connection error');
+
+
+```
+
+
+
 ## Questions and contribution
 
 Feel free to make any suggestions, open issue or make PR. 
